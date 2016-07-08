@@ -71,7 +71,6 @@ plot(volest_amzn, type="l", main="Volatility Estimate of Amazon Stock")
 
 lines(volest1_amzn, type="l", col="red")
 lines(volest2_amzn, type="l", col="blue")
-lines(volest3_amzn, type="l", col="yellow")
 lines(volest3_amzn, type="l", col="green")
 ```
 
