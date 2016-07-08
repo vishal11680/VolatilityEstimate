@@ -69,9 +69,9 @@ volest3_amzn <- Vol(100, AMZNret) # Decay factor 99
 
 plot(volest_amzn, type="l", main="Volatility Estimate of Amazon Stock")
 
-lines(volest1_amzn, type="l", col="red")
+lines(volest1_amzn, type="l", col="green")
 lines(volest2_amzn, type="l", col="blue")
-lines(volest3_amzn, type="l", col="green")
+lines(volest3_amzn, type="l", col="red")
 ```
 
 ![](Unit9.5VolEst_files/figure-html/unnamed-chunk-1-1.png)<!-- -->
