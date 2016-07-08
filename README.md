@@ -1,2 +1,0 @@
-# VolatilityEstimate
-VolatilityEstimate
