@@ -6,7 +6,7 @@ output:
   html_document:
     keep_md: true
 ---
-### Purpose: Download Amazon historic stock closing prices since it started trading and calculate volatility measure for the same.
+### Purpose: Download Amazon historic stock closing prices since start of trading and calculate volatility measure for the same.
 
 ```{r}
 #As a first step we will load library TSERIES

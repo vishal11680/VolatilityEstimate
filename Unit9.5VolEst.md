@@ -1,7 +1,7 @@
 # Unit9.5 Volatility Measure
 Vishal A  
 July 6, 2016  
-### Purpose: Download Amazon historic stock closing prices since it started trading and calculate volatility measure for the same.
+### Purpose: Download Amazon historic stock closing prices since start of trading and calculate volatility measure for the same.
 
 
 ```r
@@ -13,7 +13,7 @@ AMZN <- get.hist.quote('amzn', quote="Close")
 
 ```
 ## Warning in download.file(url, destfile, method = method, quiet = quiet):
-## downloaded length 310661 != reported length 200
+## downloaded length 310805 != reported length 200
 ```
 
 ```
@@ -26,7 +26,7 @@ length(AMZN)
 ```
 
 ```
-## [1] 4816
+## [1] 4818
 ```
 
 ```r
